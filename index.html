@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20221004224023">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<img src="img/icons/logo.svg" alt="Иконка" class="header__logo">
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" data-goto=".intro" data-goto-header class="menu__link">Главная</a></li>
+							<li class="menu__item"><a href="#" data-goto=".services" data-goto-header class="menu__link">Услуги</a></li>
+							<li class="menu__item"><a href="#" data-goto=".about" data-goto-header class="menu__link">О нас</a></li>
+							<li class="menu__item"><a href="#" data-goto=".contacts" data-goto-header class="menu__link">Контакты</a></li>
+							<li class="menu__item"><a href="#" data-goto=".reviews" data-goto-header class="menu__link">Отзывы</a></li>
+						</ul>
+					</nav>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="intro">
+				<div class='intro__container'>
+					<div class="intro__row">
+						<div class="intro__column column-intro">
+							<div class="intro__title">
+								<div class="mod">
+									<span>Top</span>
+									<span class="line"></span>
+									<span>Hit</span>
+								</div>
+								<h1>Сладкие <span>букеты</span></h1>
+								<picture><source srcset="img//intro_cake_sm.webp" type="image/webp"><img src="img//intro_cake_sm.png" alt="Картинка"></picture>
+							</div>
+							<div class="intro__desc desc">В нашей команде есть квалифицированные шоколатье и их помощники, для того, чтобы успеть сделать ваши заказы точно в срок</div>
+							<button type="button" data-goto=".services" data-goto-header class="intro__button btn">Перейти к услугам</button>
+						</div>
+						<div class="intro__column column-intro">
+							<div class="column-intro__info">Доставка по Екатеренбургу</div>
+							<picture><source srcset="img/intro_cake-lg.webp" type="image/webp"><img src="img/intro_cake-lg.png" alt="Картинка"></picture>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="benefits">
+				<div class='benefits__container'>
+					<div class="benefits__title title-lg">
+						<h2 class="title">Наши <span>преимущества</span></h2>
+						<div class="benefits__num num">
+							<span></span>
+							<span class="number">2</span>
+							<span></span>
+						</div>
+					</div>
+					<div class="benefits__row">
+						<div class="benefits__column benefits-column">
+							<img src="img/icons/benefits/1.svg" alt="Иконка" class="benefits-column__pic">
+							<h3 class="benefits-column__title">Качетво</h3>
+							<div class="benefits-column__desc">Мы печем наши пироженые только из высококачественных продуктов, которые прошли проверку качества!</div>
+						</div>
+						<div class="benefits__column benefits-column">
+							<img src="img/icons/benefits/2.svg" alt="Иконка" class="benefits-column__pic">
+							<h3 class="benefits-column__title">Акции</h3>
+							<div class="benefits-column__desc">Мы проводим каждую неделю различные акции, а также делаем персональные скидки!</div>
+						</div>
+						<div class="benefits__column benefits-column">
+							<img src="img/icons/benefits/3.svg" alt="Иконка" class="benefits-column__pic">
+							<h3 class="benefits-column__title">Широкий выбор</h3>
+							<div class="benefits-column__desc">У нас огромный выбор готовых примеров букетов, а также вы можете создать собственный букет по своим предпочтениям.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="services">
+				<div class='services__container'>
+					<div class="services__title title-lg">
+						<h2 class="title">Наши <span>услуги</span></h2>
+						<div class="services__num num">
+							<span></span>
+							<span class="number">3</span>
+							<span></span>
+						</div>
+					</div>
+					<div class="services__row">
+						<div class="services__column column-services">
+							<a href="#" class="column-services__image-ibg"><picture><source srcset="img/services/1.webp" type="image/webp"><img src="img/services/1.png" alt="Картинка"></picture></a>
+							<div class="column-services__body">
+								<h3 class="column-services__title">Букеты из пироженых</h3>
+								<div class="column-services__desc">Букеты собираются из свежеиспеченых пироженых на собственной пекарне, пироженые выбираете сами, у нас их огромный выбор </div>
+								<div class="column-services__footer">
+									<div class="column-services__sizes">
+										<button type="button" class="column-services__btn button">S</button>
+										<button type="button" class="column-services__btn button">M</button>
+										<button type="button" class="column-services__btn button">L</button>
+									</div>
+									<p class="column-services__price">от 1500 руб</p>
+								</div>
+								<button type="button" data-goto=".collector" data-goto-header class="column-services__link button-line">Собрать букет</button>
+							</div>
+						</div>
+						<div class="services__column column-services">
+							<div class="column-services__sale">sale</div>
+							<a href="#" class="column-services__image-ibg"><picture><source srcset="img/services/2.webp" type="image/webp"><img src="img/services/2.png" alt="Картинка"></picture></a>
+							<div class="column-services__body">
+								<h3 class="column-services__title">Букеты из фруктов</h3>
+								<div class="column-services__desc">Букеты собираются из свежих фруктов на ваш выбор, у нас имеется огромный выбор фруктов для вашего букета</div>
+								<div class="column-services__footer">
+									<div class="column-services__sizes">
+										<button type="button" class="column-services__btn button">S</button>
+										<button type="button" class="column-services__btn button">L</button>
+									</div>
+									<p class="column-services__price"><span>от 1200 руб</span> от 1000 руб</p>
+								</div>
+								<button type="button" data-goto=".collector" data-goto-header class="column-services__link button-line">Собрать букет</button>
+							</div>
+						</div>
+						<div class="services__column column-services">
+							<a href="#" class="column-services__image-ibg"><picture><source srcset="img/services/3.webp" type="image/webp"><img src="img/services/3.png" alt="Картинка"></picture></a>
+							<div class="column-services__body">
+								<h3 class="column-services__title">Букеты из упакованых сладостей </h3>
+								<div class="column-services__desc">Букеты состоят из любого вида шоколадных батончиков или других популярных сладостей</div>
+								<div class="column-services__footer">
+									<div class="column-services__sizes">
+										<button type="button" class="column-services__btn button">S</button>
+										<button type="button" class="column-services__btn button">M</button>
+										<button type="button" class="column-services__btn button">L</button>
+									</div>
+									<p class="column-services__price">от 2500 руб</p>
+								</div>
+								<button type="button" data-goto=".collector" data-goto-header class="column-services__link button-line">Собрать букет</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="about">
+				<div class='about__container'>
+					<div class="about__title title-lg">
+						<h2 class="title">О нашей <span>компании</span></h2>
+						<div class="about__num num">
+							<span></span>
+							<span class="number">4</span>
+							<span></span>
+						</div>
+					</div>
+					<div class="about__row">
+						<div class="about__column">
+							<div class="about__pic pic-about">
+
+								<div class="pic-about__image-ibg"><picture><source srcset="img/about.webp" type="image/webp"><img src="img/about.jpg" alt="Картинка"></picture></div>
+								<div class="pic-about__footer">
+									<h4 class="pic-about__title">Калинина Анастасия Дмитриевна</h4>
+									<div class="pic-about__desc">Владелец компании</div>
+								</div>
+							</div>
+						</div>
+						<div class="about__column column-about">
+							<h3 class="column-about__title">Slastena</h3>
+							<div class="column-about__body">
+								<p class="column-about__desc"><span>Сладкий букет</span> – это красивый, съедобный, оригинальный подарок, который идеально подходит под любой праздник. Именно поэтому было принято решение создать компанию <span>slastena.</span> Мы специализируемся на создании букетов любой сложности, мы собираем букеты из фруктов, пироженых, конфет и других видов сладостей. Такие букеты выигрывают на фоне обычных цветов и просто коробки конфет, ведь такой подарок будет отличаться
+									особенной красотой, оригинальностью и уникальностью. </p>
+								<p class="column-about__desc">И помните Slastena - это не просто компания,
+									мы источник тепла и позитива!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="reviews">
+				<div class='reviews__container'>
+					<div class="reviews__title title-lg">
+						<h2 class="title">Отзывы <span>клиентов</span></h2>
+						<div class="reviews__num num">
+							<span></span>
+							<span class="number">5</span>
+							<span></span>
+						</div>
+					</div>
+					<div class="reviews__row">
+						<div class="reviews__column">
+							<div class="reviews__slider">
+								<div class="reviews__swiper">
+									<div class="reviews__slide slide-reviews">
+										<div class="slide-reviews__column">
+											<div class="slide-reviews__desc">Заказывала букет для свадебного мероприятия, собирала сама спомощью удобного сборщика индивидуальных букетов. Очень понравилась функция индивидуальных букетов, букеты на свой вкус намного приятнее дарить, чем готовый вариант, но и готовые варианты тоже смотрелись интересно. Всем всё понравилось. Рекомендую!
+												Если интерсно, то букет был из различных конфет упакованых в оригинальную коробку.</div>
+											<div class="slide-reviews__stars">
+												<span>★</span>
+												<span>★</span>
+												<span>★</span>
+												<span>★</span>
+												<span>★</span>
+											</div>
+										</div>
+										<div class="slide-reviews__column">
+											<picture><source srcset="img/reviews/1.webp" type="image/webp"><img src="img/reviews/1.png" alt="Картинка" class="slide-reviews__pic"></picture>
+											<h4 class="slide-reviews__title">Анна Короткова</h4>
+											<div class="slide-reviews__info">маркетолог</div>
+											<div class="slide-reviews__socs">
+												<a href="https://vk.com/" target="_blank" class="_icon-vk"></a>
+												<a href="https://www.facebook.com/" target="_blank" class="_icon-fsb"></a>
+												<a href="https://web.telegram.org/" target="_blank" class="_icon-tg"></a>
+											</div>
+										</div>
+									</div>
+									<div class="reviews__slide slide-reviews">
+										<div class="slide-reviews__column">
+											<div class="slide-reviews__desc">Заказывала букет для свадебного мероприятия, собирала сама спомощью удобного сборщика индивидуальных букетов. Очень понравилась функция индивидуальных букетов, букеты на свой вкус намного приятнее дарить, чем готовый вариант, но и готовые варианты тоже смотрелись интересно. Всем всё понравилось. Рекомендую!
+												Если интерсно, то букет был из различных конфет упакованых в оригинальную коробку.</div>
+											<div class="slide-reviews__stars">
+												<span>★</span>
+												<span>★</span>
+												<span>★</span>
+												<span>★</span>
+												<span>★</span>
+											</div>
+										</div>
+										<div class="slide-reviews__column">
+											<picture><source srcset="img/reviews/1.webp" type="image/webp"><img src="img/reviews/1.png" alt="Картинка" class="slide-reviews__pic"></picture>
+											<h4 class="slide-reviews__title">Анна Короткова</h4>
+											<div class="slide-reviews__info">маркетолог</div>
+											<div class="slide-reviews__socs">
+												<a href="https://vk.com/" target="_blank" class="_icon-vk"></a>
+												<a href="https://www.facebook.com/" target="_blank" class="_icon-fsb"></a>
+												<a href="https://web.telegram.org/" target="_blank" class="_icon-tg"></a>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<div class="reviews__pagination pagination-reviews">
+									<div class="pagination-reviews__next">→</div>
+									<div class="pagination-reviews__prev">←</div>
+								</div>
+							</div>
+						</div>
+						<div class="reviews__links">
+							<button type="button" data-goto=".contacts" data-goto-header class="reviews__link button-line">Перейти к контактам</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="catalog">
+				<div class='catalog__container'>
+					<div class="catalog__title title-lg">
+						<h2 class="title">Готовые <span>букеты</span></h2>
+						<div class="catalog__num num">
+							<span></span>
+							<span class="number">6</span>
+							<span></span>
+						</div>
+					</div>
+					<div class="catalog__row">
+						<div class="catalog__column column-catalog">
+							<p class="column-catalog__price">1500 руб</p>
+							<picture><source srcset="img/catalog/1.webp" type="image/webp"><img src="img/catalog/1.jpg" alt="Картинка" class="column-catalog__pic"></picture>
+							<h4 class="column-catalog__title">Букет киндер</h4>
+						</div>
+						<div class="catalog__column column-catalog">
+							<p class="column-catalog__price">2 500 руб</p>
+							<picture><source srcset="img/catalog/2.webp" type="image/webp"><img src="img/catalog/2.jpg" alt="Картинка" class="column-catalog__pic"></picture>
+							<h4 class="column-catalog__title">Букет Ореховый</h4>
+						</div>
+						<div class="catalog__column column-catalog">
+							<p class="column-catalog__price">2 000 руб</p>
+							<picture><source srcset="img/catalog/3.webp" type="image/webp"><img src="img/catalog/3.jpg" alt="Картинка" class="column-catalog__pic"></picture>
+							<h4 class="column-catalog__title">Букет из зефира </h4>
+						</div>
+						<div class="catalog__column column-catalog">
+							<p class="column-catalog__price">2 000 руб</p>
+							<picture><source srcset="img/catalog/4.webp" type="image/webp"><img src="img/catalog/4.jpg" alt="Картинка" class="column-catalog__pic"></picture>
+							<h4 class="column-catalog__title">Букет ретро</h4>
+						</div>
+						<div class="catalog__column column-catalog">
+							<p class="column-catalog__price">1 500 руб</p>
+							<picture><source srcset="img/catalog/5.webp" type="image/webp"><img src="img/catalog/5.jpg" alt="Картинка" class="column-catalog__pic"></picture>
+							<h4 class="column-catalog__title">Букет будь здоров</h4>
+						</div>
+						<div class="catalog__column column-catalog">
+							<p class="column-catalog__price">3 000 руб</p>
+							<picture><source srcset="img/catalog/6.webp" type="image/webp"><img src="img/catalog/6.jpg" alt="Картинка" class="column-catalog__pic"></picture>
+							<h4 class="column-catalog__title">Букет гранат</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="team">
+				<div class='team__container'>
+					<div class="team__title title-lg">
+						<h2 class="title">Наша <span>команда</span></h2>
+						<div class="team__num num">
+							<span></span>
+							<span class="number">7</span>
+							<span></span>
+						</div>
+					</div>
+					<div data-tabs class=team__tabs tabs team-tabs">
+						<nav data-tabs-titles class="team-tabs__navigation tabs__navigation">
+							<button type="submit" class="column-team__btn tabs__title _tab-active _icon-persone"></button>
+							<button type="submit" class="column-team__btn tabs__title _icon-persone"></button>
+							<button type="submit" class="column-team__btn tabs__title _icon-persone"></button>
+						</nav>
+						<div data-tabs-body class="team-tabs__content tabs__content">
+							<div class="team-tabs__body tabs__body">
+								<div class="team__column column-team">
+									<picture><source srcset="img/team/1.webp" type="image/webp"><img src="img/team/1.jpg" alt="Картинка" class="column-team__pic"></picture>
+									<div class="column-team__body">
+										<div class="column-team__info">
+											<h3 class="column-team__title">Лена Виноградова</h3>
+											<p class="column-team__sign">Шоколадье</p>
+											<div class="column-team__desc">
+												1) кондитер, специализирующийся на производстве шоколада и изделий из него;
+												2) вид предпринимательской деятельности, по ремесленному производству шоколада и изделий из него, а также его продаже, как правило в месте производства.
+												Это, как правило, небольшое семейное предприятие, часто действующее в конкретном месте. Магазины шоколатье распространены, в основном, во Франции и Бельгии.</div>
+											<div class="column-team__socs">
+												<a href="https://vk.com/" target="_blank" class="_icon-vk"></a>
+												<a href="https://www.facebook.com/" target="_blank" class="_icon-fsb"></a>
+												<a href="https://web.telegram.org/" target="_blank" class="_icon-tg"></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="team-tabs__body tabs__body">
+								<div class="team__column column-team">
+									<picture><source srcset="img/team/1.webp" type="image/webp"><img src="img/team/1.jpg" alt="Картинка" class="column-team__pic"></picture>
+									<div class="column-team__body">
+										<div class="column-team__info">
+											<h3 class="column-team__title">Лена Виноградова (ВМЕСТЕ ДОБАВМИ ЛЕШУ И ЕЩЁ КОГО НИБУДЬ)</h3>
+											<p class="column-team__sign">Шоколадье</p>
+											<div class="column-team__desc">
+												1) кондитер, специализирующийся на производстве шоколада и изделий из него;
+												2) вид предпринимательской деятельности, по ремесленному производству шоколада и изделий из него, а также его продаже, как правило в месте производства.
+												Это, как правило, небольшое семейное предприятие, часто действующее в конкретном месте. Магазины шоколатье распространены, в основном, во Франции и Бельгии.</div>
+											<div class="column-team__socs">
+												<a href="https://vk.com/" target="_blank" class="_icon-vk"></a>
+												<a href="https://www.facebook.com/" target="_blank" class="_icon-fsb"></a>
+												<a href="https://web.telegram.org/" target="_blank" class="_icon-tg"></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="team-tabs__body tabs__body">
+								<div class="team__column column-team">
+									<picture><source srcset="img/team/1.webp" type="image/webp"><img src="img/team/1.jpg" alt="Картинка" class="column-team__pic"></picture>
+									<div class="column-team__body">
+										<div class="column-team__info">
+											<h3 class="column-team__title">Лена Виноградова 3</h3>
+											<p class="column-team__sign">Шоколадье</p>
+											<div class="column-team__desc">
+												1) кондитер, специализирующийся на производстве шоколада и изделий из него;
+												2) вид предпринимательской деятельности, по ремесленному производству шоколада и изделий из него, а также его продаже, как правило в месте производства.
+												Это, как правило, небольшое семейное предприятие, часто действующее в конкретном месте. Магазины шоколатье распространены, в основном, во Франции и Бельгии.</div>
+											<div class="column-team__socs">
+												<a href="https://vk.com/" target="_blank" class="_icon-vk"></a>
+												<a href="https://www.facebook.com/" target="_blank" class="_icon-fsb"></a>
+												<a href="https://web.telegram.org/" target="_blank" class="_icon-tg"></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="collector">
+				<div class='collector__container'>
+					<div class="collector__title title-lg">
+						<h2 class="title">Собрать <span>букет</span></h2>
+						<div class="collector__num num">
+							<span></span>
+							<span class="number">8</span>
+							<span></span>
+						</div>
+					</div>
+					<div data-tabs class="collector__tabs tabs collector-tabs">
+						<nav data-tabs-titles class="column-collector__nav">
+							<button type="submit" class="column-collector__item _tab-active">Пироженые</button>
+							<button type="submit" class="column-collector__item">Батончики</button>
+							<button type="submit" class="column-collector__item">Фрукты</button>
+							<button type="submit" class="column-collector__item">Прочее</button>
+						</nav>
+						<div data-tabs-body class="tabs__content collector-tabs__content">
+							<div class="tabs__body">
+								<div class="column-collector__body column-body-collector">
+									<div class="column-body-collector__item">
+										<div class="column-body-collector__image-ibg"><picture><source srcset="img/coillector/cakes/1.webp" type="image/webp"><img src="img/coillector/cakes/1.png" alt="Картинка"></picture></div>
+										<h4 class="column-body-collector__title">Шоколадная бомба 1 </h4>
+										<p class="column-body-collector__price"><span>100</span>руб</p>
+										<div class="numbers">
+											<button class="number-minus" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="0" readonly>
+											<button class="number-plus" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+									<div class="column-body-collector__item">
+										<div class="column-body-collector__image-ibg"><picture><source srcset="img/coillector/cakes/2.webp" type="image/webp"><img src="img/coillector/cakes/2.png" alt="Картинка"></picture></div>
+										<h4 class="column-body-collector__title">Манго-маракуйя</h4>
+										<p class="column-body-collector__price"><span>150</span>руб</p>
+										<div class="numbers">
+											<button class="number-minus" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="0" readonly>
+											<button class="number-plus" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+									<div class="column-body-collector__item">
+										<div class="column-body-collector__image-ibg"><picture><source srcset="img/coillector/cakes/3.webp" type="image/webp"><img src="img/coillector/cakes/3.png" alt="Картинка"></picture></div>
+										<h4 class="column-body-collector__title">Фисташковое с малиной</h4>
+										<p class="column-body-collector__price"><span>200</span>руб</p>
+										<div class="numbers">
+											<button class="number-minus" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="0" readonly>
+											<button class="number-plus" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+									<div class="column-body-collector__item">
+										<div class="column-body-collector__image-ibg"><picture><source srcset="img/coillector/cakes/4.webp" type="image/webp"><img src="img/coillector/cakes/4.png" alt="Картинка"></picture></div>
+										<h4 class="column-body-collector__title">Черная смородина</h4>
+										<p class="column-body-collector__price"><span>50</span>руб</p>
+										<div class="numbers">
+											<button class="number-minus" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="0" readonly>
+											<button class="number-plus" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tabs__body">
+								<div class="column-collector__body column-body-collector">
+									<div class="column-body-collector__item">
+										<div class="column-body-collector__image-ibg"><picture><source srcset="img/coillector/cakes/1.webp" type="image/webp"><img src="img/coillector/cakes/1.png" alt="Картинка"></picture></div>
+										<h4 class="column-body-collector__title">Шоколадная бомба (ВМЕСТЕ ДОБАВМИ НОВЫЕ) </h4>
+										<p class="column-body-collector__price"><span>100</span>руб</p>
+										<div class="numbers">
+											<button class="number-minus" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="0" readonly>
+											<button class="number-plus" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+									<div class="column-body-collector__item">
+										<div class="column-body-collector__image-ibg"><picture><source srcset="img/coillector/cakes/2.webp" type="image/webp"><img src="img/coillector/cakes/2.png" alt="Картинка"></picture></div>
+										<h4 class="column-body-collector__title">Манго-маракуйя</h4>
+										<p class="column-body-collector__price"><span>150</span>руб</p>
+										<div class="numbers">
+											<button class="number-minus" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="0" readonly>
+											<button class="number-plus" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+									<div class="column-body-collector__item">
+										<div class="column-body-collector__image-ibg"><picture><source srcset="img/coillector/cakes/3.webp" type="image/webp"><img src="img/coillector/cakes/3.png" alt="Картинка"></picture></div>
+										<h4 class="column-body-collector__title">Фисташковое с малиной</h4>
+										<p class="column-body-collector__price"><span>200</span>руб</p>
+										<div class="numbers">
+											<button class="number-minus" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="0" readonly>
+											<button class="number-plus" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+									<div class="column-body-collector__item">
+										<div class="column-body-collector__image-ibg"><picture><source srcset="img/coillector/cakes/4.webp" type="image/webp"><img src="img/coillector/cakes/4.png" alt="Картинка"></picture></div>
+										<h4 class="column-body-collector__title">Черная смородина</h4>
+										<p class="column-body-collector__price"><span>50</span>руб</p>
+										<div class="numbers">
+											<button class="number-minus" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="0" readonly>
+											<button class="number-plus" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tabs__body">
+								<div class="column-collector__body column-body-collector">
+									<div class="column-body-collector__item">
+										<div class="column-body-collector__image-ibg"><picture><source srcset="img/coillector/cakes/1.webp" type="image/webp"><img src="img/coillector/cakes/1.png" alt="Картинка"></picture></div>
+										<h4 class="column-body-collector__title">Шоколадная бомба 3 </h4>
+										<p class="column-body-collector__price"><span>100</span>руб</p>
+										<div class="numbers">
+											<button class="number-minus" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="0" readonly>
+											<button class="number-plus" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+									<div class="column-body-collector__item">
+										<div class="column-body-collector__image-ibg"><picture><source srcset="img/coillector/cakes/2.webp" type="image/webp"><img src="img/coillector/cakes/2.png" alt="Картинка"></picture></div>
+										<h4 class="column-body-collector__title">Манго-маракуйя</h4>
+										<p class="column-body-collector__price"><span>150</span>руб</p>
+										<div class="numbers">
+											<button class="number-minus" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="0" readonly>
+											<button class="number-plus" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+									<div class="column-body-collector__item">
+										<div class="column-body-collector__image-ibg"><picture><source srcset="img/coillector/cakes/3.webp" type="image/webp"><img src="img/coillector/cakes/3.png" alt="Картинка"></picture></div>
+										<h4 class="column-body-collector__title">Фисташковое с малиной</h4>
+										<p class="column-body-collector__price"><span>200</span>руб</p>
+										<div class="numbers">
+											<button class="number-minus" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="0" readonly>
+											<button class="number-plus" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+									<div class="column-body-collector__item">
+										<div class="column-body-collector__image-ibg"><picture><source srcset="img/coillector/cakes/4.webp" type="image/webp"><img src="img/coillector/cakes/4.png" alt="Картинка"></picture></div>
+										<h4 class="column-body-collector__title">Черная смородина</h4>
+										<p class="column-body-collector__price"><span>50</span>руб</p>
+										<div class="numbers">
+											<button class="number-minus" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="0" readonly>
+											<button class="number-plus" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tabs__body">
+								<div class="column-collector__body column-body-collector">
+									<div class="column-body-collector__item">
+										<div class="column-body-collector__image-ibg"><picture><source srcset="img/coillector/cakes/1.webp" type="image/webp"><img src="img/coillector/cakes/1.png" alt="Картинка"></picture></div>
+										<h4 class="column-body-collector__title">Шоколадная бомба 4 </h4>
+										<p class="column-body-collector__price"><span>100</span>руб</p>
+										<div class="numbers">
+											<button class="number-minus" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="0" readonly>
+											<button class="number-plus" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+									<div class="column-body-collector__item">
+										<div class="column-body-collector__image-ibg"><picture><source srcset="img/coillector/cakes/2.webp" type="image/webp"><img src="img/coillector/cakes/2.png" alt="Картинка"></picture></div>
+										<h4 class="column-body-collector__title">Манго-маракуйя</h4>
+										<p class="column-body-collector__price"><span>150</span>руб</p>
+										<div class="numbers">
+											<button class="number-minus" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="0" readonly>
+											<button class="number-plus" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+									<div class="column-body-collector__item">
+										<div class="column-body-collector__image-ibg"><picture><source srcset="img/coillector/cakes/3.webp" type="image/webp"><img src="img/coillector/cakes/3.png" alt="Картинка"></picture></div>
+										<h4 class="column-body-collector__title">Фисташковое с малиной</h4>
+										<p class="column-body-collector__price"><span>200</span>руб</p>
+										<div class="numbers">
+											<button class="number-minus" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="0" readonly>
+											<button class="number-plus" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+									<div class="column-body-collector__item">
+										<div class="column-body-collector__image-ibg"><picture><source srcset="img/coillector/cakes/4.webp" type="image/webp"><img src="img/coillector/cakes/4.png" alt="Картинка"></picture></div>
+										<h4 class="column-body-collector__title">Черная смородина</h4>
+										<p class="column-body-collector__price"><span>50</span>руб</p>
+										<div class="numbers">
+											<button class="number-minus" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+											<input type="number" min="0" value="0" readonly>
+											<button class="number-plus" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="collector__footer">
+						<h4 class="collector__res">Итого: <span> 0 руб</span></h4>
+						<button type="button" class="collector__link button-line">Очистить выбор</button>
+					</div>
+				</div>
+			</div>
+			<div class="contacts">
+				<div class='contacts__container'>
+					<div class="contacts__title title-lg">
+						<h2 class="title">Связаться <span>с нами</span></h2>
+						<div class="contacts__num num">
+							<span></span>
+							<span class="number">9</span>
+							<span></span>
+						</div>
+					</div>
+					<div class="contacts__row">
+						<div class="contacts__column column-contacts">
+							<div class="column-contacts__body">
+								<h3 class="column-contacts__title">Slastena</h3>
+								<div class="column-contacts__item column-item-contacts">
+									<h4 class="column-item-contacts__title">Адрес</h4>
+									<p class="column-item-contacts__desc">ул. Толмачёва, 23, Екатеринбург</p>
+								</div>
+								<div class="column-contacts__item column-item-contacts">
+									<h4 class="column-item-contacts__title">Почта</h4>
+									<a href="mailto:slastena@gmail.com" class="column-item-contacts__link">slastena@gmail.com</a>
+								</div>
+								<div class="column-contacts__item column-item-contacts">
+									<h4 class="column-item-contacts__title">Телефон</h4>
+									<a href="tel:89120385791" class="column-item-contacts__link">8 (912) 038-57-91</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae15e51e125d52081d820c0f6152c3bc7ff3b30530c38d9bd853bfac6ffceee92&amp;width=100%25&amp;height=600&amp;lang=ru_RU&amp;scroll=true&_v=20221004224023"></script>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<img src="img/icons/logo.svg" alt="Иконка" class="footer__logo">
+					<nav class="footer__menu">
+						<ul class="footer__list">
+							<li class="footer__item"><a href="#" data-goto-header class="footer__link">Главная</a></li>
+							<li class="footer__item"><a href="#" data-goto-header class="footer__link">Услуги</a></li>
+							<li class="footer__item"><a href="#" data-goto-header class="footer__link">О нас</a></li>
+							<li class="footer__item"><a href="#" data-goto-header class="footer__link">Каталог</a></li>
+							<li class="footer__item"><a href="#" data-goto-header class="footer__link">Отзывы</a></li>
+						</ul>
+					</nav>
+					<div class="footer__socs">
+						<a href="https://vk.com/" target="_blank" class="_icon-vk"></a>
+						<a href="https://www.facebook.com/" target="_blank" class="_icon-fsb"></a>
+						<a href="https://web.telegram.org/" target="_blank" class="_icon-tg"></a>
+					</div>
+				</div>
+				<div class="footer__footer">
+					<p class="footer__copy">&copySlastena кондитерская сладких букетов Екатеренбург 2022.</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="js/app.min.js?_v=20221004224023"></script>
+</body>
+
+</html>
